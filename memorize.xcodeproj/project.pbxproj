@@ -7,18 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		ECDFDB142C2BD1290015613C /* memorizeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDFDB132C2BD1290015613C /* memorizeApp.swift */; };
-		ECDFDB162C2BD1290015613C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDFDB152C2BD1290015613C /* ContentView.swift */; };
+		ECDFDB142C2BD1290015613C /* MemorizeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDFDB132C2BD1290015613C /* MemorizeApp.swift */; };
+		ECDFDB162C2BD1290015613C /* EmojiMemoryGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDFDB152C2BD1290015613C /* EmojiMemoryGameView.swift */; };
 		ECDFDB182C2BD12C0015613C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECDFDB172C2BD12C0015613C /* Assets.xcassets */; };
 		ECDFDB1B2C2BD12C0015613C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECDFDB1A2C2BD12C0015613C /* Preview Assets.xcassets */; };
+		ECDFDB222C2C747C0015613C /* MemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDFDB212C2C747C0015613C /* MemoryGame.swift */; };
+		ECDFDB242C2C79610015613C /* EmojiMemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDFDB232C2C79610015613C /* EmojiMemoryGame.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		ECDFDB102C2BD1290015613C /* memorize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = memorize.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		ECDFDB132C2BD1290015613C /* memorizeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = memorizeApp.swift; sourceTree = "<group>"; };
-		ECDFDB152C2BD1290015613C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ECDFDB132C2BD1290015613C /* MemorizeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemorizeApp.swift; sourceTree = "<group>"; };
+		ECDFDB152C2BD1290015613C /* EmojiMemoryGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMemoryGameView.swift; sourceTree = "<group>"; };
 		ECDFDB172C2BD12C0015613C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ECDFDB1A2C2BD12C0015613C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ECDFDB212C2C747C0015613C /* MemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryGame.swift; sourceTree = "<group>"; };
+		ECDFDB232C2C79610015613C /* EmojiMemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMemoryGame.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +55,10 @@
 		ECDFDB122C2BD1290015613C /* memorize */ = {
 			isa = PBXGroup;
 			children = (
-				ECDFDB132C2BD1290015613C /* memorizeApp.swift */,
-				ECDFDB152C2BD1290015613C /* ContentView.swift */,
+				ECDFDB232C2C79610015613C /* EmojiMemoryGame.swift */,
+				ECDFDB212C2C747C0015613C /* MemoryGame.swift */,
+				ECDFDB132C2BD1290015613C /* MemorizeApp.swift */,
+				ECDFDB152C2BD1290015613C /* EmojiMemoryGameView.swift */,
 				ECDFDB172C2BD12C0015613C /* Assets.xcassets */,
 				ECDFDB192C2BD12C0015613C /* Preview Content */,
 			);
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ECDFDB162C2BD1290015613C /* ContentView.swift in Sources */,
-				ECDFDB142C2BD1290015613C /* memorizeApp.swift in Sources */,
+				ECDFDB162C2BD1290015613C /* EmojiMemoryGameView.swift in Sources */,
+				ECDFDB142C2BD1290015613C /* MemorizeApp.swift in Sources */,
+				ECDFDB222C2C747C0015613C /* MemoryGame.swift in Sources */,
+				ECDFDB242C2C79610015613C /* EmojiMemoryGame.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,8 +286,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationLandscapeLeft;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,8 +315,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationLandscapeLeft;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
